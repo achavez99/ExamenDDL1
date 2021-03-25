@@ -115,3 +115,28 @@
         <Demo_libre></Demo_libre>
     </CinturonNegroSegundoDan>
 
+    <CinturonNegroTercerDan>
+        <Variaciones_Tecnica></Variaciones_Tecnica>
+        <Teoria></Teoria>
+        <Kata></Kata>
+        <Kumite></Kumite>
+        <Campeonatos></Campeonatos>
+        <Tecnicas></Tecnicas>
+        <Aplicaciones></Aplicaciones>
+        <Aplicacion_Tecnica></Aplicacion_Tecnica>
+        <Demo_libre></Demo_libre>
+    </CinturonNegroTercerDan>
+
+    <CinturonNegroCuartoDan>
+        <kata></kata>
+        <Kumite></Kumite>
+        <Coloquio></Coloquio>
+        <Aplicacion_Tecnica><Aplicacion_Tecnica>
+        <Demo_libre></Demo_libre>
+    </CinturonNegroCuartoDan>
+
+    <QuintoDanySuperior>
+        <kata></kata>
+        <Coloquio></Coloquio>
+    </QuintoDanySuperior>
+

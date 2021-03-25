@@ -20,6 +20,10 @@
                 <xs:element name="CinturonNegro" type="tipocint_negro" maxOccurs="unbounded"/>
                 <xs:element name="CinturonNegroPrimerDan" type="tipocint_negro1dan" maxOccurs="unbounded"/>
                 <xs:element name="CinturonNegroSegundoDan" type="tipocint_negro2dan" maxOccurs="unbounded"/>
+                <xs:element name="CinturonNegroTercerDan" type="tipocint_negro3dan" maxOccurs="unbounded"/>
+                <xs:element name="CinturonNegroCuartoDan" type="tipocint_negro4dan" maxOccurs="unbounded"/>
+                <xs:element name="QuintoDanySuperior" type="tipocint_5dan" maxOccurs="unbounded"/>
+
         </xs:sequence>
      </xs:complexType>
 
@@ -92,8 +96,7 @@
         </xs:sequence>
     </xs:complexType>
 
-    <xs:element name="tipocrit_valoracion">
-    <xs:complexType>
+    <xs:complexType name="tipocrit_valoracion">
         <xs:sequence>
         <xs:element name="Indumentaria" type="xs:integer"/>
         <xs:element name="AseoPersonal" type="xs:integer"/>
@@ -102,27 +105,21 @@
         <xs:element name="Respuestas" type="xs:integer"/>
     </xs:sequence>
     </xs:complexType>
-    </xs:element>
 
-    <xs:element name="tipotribunal">
-        <xs:complexType>
+        <xs:complexType name="tipotribunal"> 
             <xs:sequence>
             <xs:element name="Numero_jueces" type="xs:integer"/>
             <xs:element name="Calificacion_final" type="xs:integer"/>
             </xs:sequence>
         </xs:complexType>
-    </xs:element>
 
-    <xs:element name="AbonarCuota">
-           <xs:complexType>
+           <xs:complexType name="tipoabonarcuota"> 
                <xs:sequence>
                    <xs:element name="Id_aspirante" type="xs:integer"/>
                </xs:sequence>
            </xs:complexType>
-    </xs:element>
 
-    <xs:element name="SuspendeExamen">
-        <xs:complexType>
+        <xs:complexType name="tiposusp_examen">
             <xs:sequence>
                 <xs:element name="Id_aspirante" type="xs:integer"/>
                 <xs:element name="SuspendeParcial" type="xs:boolean"/>
@@ -130,10 +127,8 @@
                 <xs:element name="SuspendeSegundaFase" type="xs:boolean"/>
             </xs:sequence>
         </xs:complexType>
- </xs:element>
 
- <xs:element name="Hasta3erDan">
-    <xs:complexType>
+    <xs:complexType name="tipohasta_3dan">
         <xs:sequence>
             <xs:element name="Tecnicas" type="xs:string"/>
             <xs:element name="Kata" type="xs:string"/>
@@ -141,10 +136,8 @@
             <xs:element name="Campeonatos" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
-</xs:element>
 
-<xs:element name="CinturonNegro">
-    <xs:complexType>
+    <xs:complexType name="tipocint_negro">
         <xs:sequence>
             <xs:element name="Tecnica_Directa" type="xs:string"/>
             <xs:element name="Tecnica_Circulares" type="xs:string"/>
@@ -154,10 +147,8 @@
             <xs:element name="Kumite" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
-</xs:element>
 
-<xs:element name="CinturonNegroPrimerDan">
-    <xs:complexType>
+    <xs:complexType name="tipocint_negro1dan">
         <xs:sequence>
             <xs:element name="Tecnica_Directa" type="xs:string"/>
             <xs:element name="Tecnica_Pierna" type="xs:string"/>
@@ -169,10 +160,8 @@
             <xs:element name="Aplicación_Tecnica" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
-</xs:element>
 
-<xs:element name="CinturonNegroSegundoDan">
-    <xs:complexType>
+    <xs:complexType name="tipocint_negro2dan">
         <xs:sequence>
             <xs:element name="Tecnica_Base" type="xs:string"/>
             <xs:element name="Tecnica_Directa" type="xs:string"/>
@@ -188,10 +177,8 @@
             <xs:element name="Demo_libre" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
-</xs:element>
 
-<xs:element name="CinturonNegroTercerDan">
-    <xs:complexType>
+    <xs:complexType name="tipocint_negro3dan">
         <xs:sequence>
             <xs:element name="Variaciones_Tecnica" type="xs:string"/>
             <xs:element name="Teoria" type="xs:string"/>
@@ -204,10 +191,8 @@
             <xs:element name="Demo_libre" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
-</xs:element>
 
-<xs:element name="CinturonNegroCuartoDan">
-    <xs:complexType>
+    <xs:complexType name="tipocint_negro4dan">
         <xs:sequence>
             <xs:element name="Kata" type="xs:string"/>
             <xs:element name="Kumite" type="xs:string"/>
@@ -216,15 +201,12 @@
             <xs:element name="Demo_libre" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
-</xs:element>
 
-<xs:element name="QuintoDanySuperior">
-    <xs:complexType>
+    <xs:complexType name="tipocint_5dan">
         <xs:sequence>
             <xs:element name="Kata" type="xs:string"/>
             <xs:element name="Coloquio" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
-</xs:element>
 
 </xs:schema>
