@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Prac27css.css"?>
+< xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ExamenDDL.xsd">
+    <CriterioValoracion>
+        <Id_aspirante></Id_aspirante>
+    </CriterioValoracion>
+
+    <aspirante>
+        <Id_aspirante>392</Id_aspirante>
+        <Nombres>Anthony</nombres>
+        <Apellidos>Chavez Gonzalez</Apellidos>
+        <DNI>4937253A</DNI>
+        <Telefono>672348947</Telefono>
+        <Direccion>Plaza los sapos nº7</Direccion>
+        <Fecha_nacimiento>25/04/1999</Fecha_nacimiento>
+        <Dan></Dan>
+        <Cinturon></Cinturon>
+        <Fecha_Ingreso_Dan></Fecha_Ingreso_Dan>
+        <FotoAspirante></FotoAspirante>
+        <Tiempo_Dan_Anterior></Tiempo_Dan_Anterior>
+        <FotoDNI></FotoDNI>
+        <FotoCarnetGrados></FotoCarnetGrados>
+    </aspirante>
+
+    <Meritos>
+        <Id_aspirante>393</Id_aspirante>
+        <Edad_aspirante>19</Edad_aspirante>
+        <LicenciaActualizada></LicenciaActualizada>
+        <TrabajoEscrito></TrabajoEscrito>
+    </Meritos>
+
+    <Convalidacion_Grados>
+        <Id_aspirante>394</Id_aspirante>
+    </Convalidacion_Grados>
+
+    <Requisitos_Aspirantes>
+        <SolicitudHasta3Dan></SolicitudHasta3Dan>
+        <D4anySuperiorCurriculum></D4anySuperiorCurriculum>
+    </Requisitos_Aspirantes>
+
+    <DispensaMedica>
+        <Id_aspirante></Id_aspirante>
+    </DispensaMedica>
+
+    <Jueces>
+    <Id_aspirante></Id_aspirante>
+    <Nombres></Nombres>
+    <Apellidos></Apellidos>
+    <DiplomaJuez></DiplomaJuez>
+    </Jueces>
+
+    <Criterio_Valoracion>
+    <Indumentaria></Indumentaria>
+    <AseoPersonal></AseoPersonal>
+    <EjecucionTecnica></EjecucionTecnica>
+    <Valores></Valores>
+    <Respuestas></Respuestas>
+    </Criterio_Valoracion>
+
+    <Tribunal>
+    <Numero_jueces></Numero_jueces>
+    <Calificacion_final></Calificacion_final>
+    </Tribunal>
+
+    <AbonarCuota>
+    <Id_aspirante></Id_aspirante>
+    </AbonarCuota>
+
+    <SuspendeExamen>
+    <Id_aspirante></Id_aspirante>
+    <SuspendeParcial></SuspendeParcial>
+    <SuspendeTotal></SuspendeTotal>
+    <SuspendeSegundaFase></SuspendeSegundaFase>
+    </SuspendeExamen>
+
