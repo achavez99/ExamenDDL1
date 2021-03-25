@@ -7,23 +7,31 @@
                 <xs:element name="examen" type="tipoexamen" maxOccurs="unbounded"/>
                 <xs:element name="resultados" type="tiporesultado" maxOccurs="unbounded"/>
                 <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
+                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
+                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
+                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
+                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
+                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
+                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
+                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
+                
         </xs:sequence>
      </xs:complexType>
 
-
-
-
-
-    <xs:element name="CriterioValoracion">
-    <xs:complexType>
+    <xs:complexType name="tipoexamen">
         <xs:sequence>
             <xs:element name="Id_aspirante" type="xs:integer"/>
         </xs:sequence>
     </xs:complexType>
-    </xs:element>
 
-    <xs:element name="aspirante">
-    <xs:complexType>
+    <xs:complexType name="tiporesultado">
+        <xs:sequence>
+            <xs:element name="Id_aspirante" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:complexType name="id_aspirante">
         <xs:sequence>
             <xs:element name="Id_aspirante" type="xs:integer"/>
             <xs:element name="Nombres" type="xs:string"/>
@@ -41,7 +49,6 @@
             <xs:element name="FotoCarnetGrados" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
-    </xs:element>
 
     <xs:element name="Meritos">
     <xs:complexType>
