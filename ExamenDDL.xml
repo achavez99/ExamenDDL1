@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="Prac27css.css"?>
-< xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ExamenDDL.xsd">
+<examenddl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ExamenDDL.xsd">
 
     <examen>
         <Id_aspirante></Id_aspirante>
@@ -12,7 +12,7 @@
 
     <aspirante>
         <Id_aspirante>392</Id_aspirante>
-        <Nombres>Anthony</nombres>
+        <Nombres>Anthony</Nombres>
         <Apellidos>Chavez Gonzalez</Apellidos>
         <DNI>4937253A</DNI>
         <Telefono>672348947</Telefono>
@@ -21,7 +21,7 @@
         <Dan>3</Dan>
         <Cinturon>blanco</Cinturon>
         <Fecha_Ingreso_Dan>25/04/2018</Fecha_Ingreso_Dan>
-        <FotoAspirante><imagen enlace="img/foca.jpg"></imagen></FotoAspirante>
+        <FotoAspirante></FotoAspirante>
         <Tiempo_Dan_Anterior></Tiempo_Dan_Anterior>
         <FotoDNI></FotoDNI>
         <FotoCarnetGrados></FotoCarnetGrados>
@@ -131,7 +131,7 @@
         <kata></kata>
         <Kumite></Kumite>
         <Coloquio></Coloquio>
-        <Aplicacion_Tecnica><Aplicacion_Tecnica>
+        <Aplicacion_Tecnica></Aplicacion_Tecnica>
         <Demo_libre></Demo_libre>
     </CinturonNegroCuartoDan>
 
@@ -140,3 +140,4 @@
         <Coloquio></Coloquio>
     </QuintoDanySuperior>
 
+</examenddl>
