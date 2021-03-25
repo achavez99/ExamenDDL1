@@ -6,15 +6,20 @@
         <xs:sequence>
                 <xs:element name="examen" type="tipoexamen" maxOccurs="unbounded"/>
                 <xs:element name="resultados" type="tiporesultado" maxOccurs="unbounded"/>
-                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
-                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
-                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
-                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
-                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
-                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
-                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
-                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
-                
+                <xs:element name="aspirante" type="tipoaspirante" maxOccurs="unbounded"/>
+                <xs:element name="meritos" type="tipomerito" maxOccurs="unbounded"/>
+                <xs:element name="Convalidacion_Grados" type="tipoconv_grados" maxOccurs="unbounded"/>
+                <xs:element name="Requisitos_Aspirantes" type="tiporeq_aspirante" maxOccurs="unbounded"/>
+                <xs:element name="DispensaMedica" type="tipodis_medica" maxOccurs="unbounded"/>
+                <xs:element name="Jueces" type="tipojueces" maxOccurs="unbounded"/>
+                <xs:element name="Criterio_Valoracion" type="tipocrit_valoracion" maxOccurs="unbounded"/>
+                <xs:element name="Tribunal" type="tipotribunal" maxOccurs="unbounded"/>
+                <xs:element name="AbonarCuota" type="tipoabonarcuota" maxOccurs="unbounded"/>
+                <xs:element name="SuspendeExamen" type="tiposusp_examen" maxOccurs="unbounded"/>
+                <xs:element name="Hasta3erDan" type="tipohasta_3dan" maxOccurs="unbounded"/>
+                <xs:element name="CinturonNegro" type="tipocint_negro" maxOccurs="unbounded"/>
+                <xs:element name="CinturonNegroPrimerDan" type="tipocint_negro1dan" maxOccurs="unbounded"/>
+                <xs:element name="CinturonNegroSegundoDan" type="tipocint_negro2dan" maxOccurs="unbounded"/>
         </xs:sequence>
      </xs:complexType>
 
@@ -31,7 +36,7 @@
     </xs:complexType>
 
 
-    <xs:complexType name="id_aspirante">
+    <xs:complexType name="tipoaspirante">
         <xs:sequence>
             <xs:element name="Id_aspirante" type="xs:integer"/>
             <xs:element name="Nombres" type="xs:string"/>
@@ -50,8 +55,7 @@
         </xs:sequence>
     </xs:complexType>
 
-    <xs:element name="Meritos">
-    <xs:complexType>
+    <xs:complexType name="tipomerito">
         <xs:sequence>
         <xs:element name="Id_aspirante" type="xs:integer"/>
         <xs:element name="Edad_aspirante" type="xs:integer"/>
@@ -59,35 +63,27 @@
         <xs:element name="TrabajoEscrito" type="xs:boolean"/>
         </xs:sequence>
     </xs:complexType>
-    </xs:element>
 
-    <xs:element name="Convalidacion_Grados">
-    <xs:complexType>
+    <xs:complexType name="tipoconv_grados">
         <xs:sequence>
         <xs:element name="Id_aspirante" type="xs:integer"/>
         </xs:sequence>
     </xs:complexType>
-    </xs:element>
 
-    <xs:element name="Requisitos_Aspirantes">
-    <xs:complexType>
+    <xs:complexType name="tiporeq_aspirante">
         <xs:sequence>
         <xs:element name="SolicitudHasta3Dan" type="xs:boolean"/>
         <xs:element name="D4anySuperiorCurriculum" type="xs:boolean"/>
         </xs:sequence>
     </xs:complexType>
-    </xs:element>
 
-    <xs:element name="DispensaMedica">
-    <xs:complexType>
+    <xs:complexType name="tipodis_medica">
         <xs:sequence>
         <xs:element name="Id_aspirante" type="xs:integer"/>
         </xs:sequence>
     </xs:complexType>
-    </xs:element>
 
-    <xs:element name="Jueces">
-    <xs:complexType>
+    <xs:complexType name="tipojueces">
         <xs:sequence>
         <xs:element name="Id_aspirante" type="xs:integer"/>
         <xs:element name="Nombres" type="xs:string"/>
@@ -95,9 +91,8 @@
         <xs:element name="DiplomaJuez" type="xs:boolean"/>
         </xs:sequence>
     </xs:complexType>
-    </xs:element>
 
-    <xs:element name="Criterio_Valoracion">
+    <xs:element name="tipocrit_valoracion">
     <xs:complexType>
         <xs:sequence>
         <xs:element name="Indumentaria" type="xs:integer"/>
@@ -109,7 +104,7 @@
     </xs:complexType>
     </xs:element>
 
-    <xs:element name="Tribunal">
+    <xs:element name="tipotribunal">
         <xs:complexType>
             <xs:sequence>
             <xs:element name="Numero_jueces" type="xs:integer"/>

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="Prac27css.css"?>
 < xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ExamenDDL.xsd">
-    <CriterioValoracion>
+
+    <examen>
         <Id_aspirante></Id_aspirante>
-    </CriterioValoracion>
+    </examen>
+
+    <resultados>
+        <Id_aspirante></Id_aspirante>
+    </resultados>
 
     <aspirante>
         <Id_aspirante>392</Id_aspirante>
@@ -22,12 +27,12 @@
         <FotoCarnetGrados></FotoCarnetGrados>
     </aspirante>
 
-    <Meritos>
+    <meritos>
         <Id_aspirante>393</Id_aspirante>
         <Edad_aspirante>19</Edad_aspirante>
         <LicenciaActualizada></LicenciaActualizada>
         <TrabajoEscrito></TrabajoEscrito>
-    </Meritos>
+    </meritos>
 
     <Convalidacion_Grados>
         <Id_aspirante>394</Id_aspirante>
