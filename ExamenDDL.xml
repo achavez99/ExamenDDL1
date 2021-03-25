@@ -13,10 +13,10 @@
         <Telefono>672348947</Telefono>
         <Direccion>Plaza los sapos nº7</Direccion>
         <Fecha_nacimiento>25/04/1999</Fecha_nacimiento>
-        <Dan></Dan>
-        <Cinturon></Cinturon>
-        <Fecha_Ingreso_Dan></Fecha_Ingreso_Dan>
-        <FotoAspirante></FotoAspirante>
+        <Dan>3</Dan>
+        <Cinturon>blanco</Cinturon>
+        <Fecha_Ingreso_Dan>25/04/2018</Fecha_Ingreso_Dan>
+        <FotoAspirante><imagen enlace="img/foca.jpg"></imagen></FotoAspirante>
         <Tiempo_Dan_Anterior></Tiempo_Dan_Anterior>
         <FotoDNI></FotoDNI>
         <FotoCarnetGrados></FotoCarnetGrados>
@@ -43,33 +43,70 @@
     </DispensaMedica>
 
     <Jueces>
-    <Id_aspirante></Id_aspirante>
-    <Nombres></Nombres>
-    <Apellidos></Apellidos>
-    <DiplomaJuez></DiplomaJuez>
+        <Id_aspirante></Id_aspirante>
+        <Nombres></Nombres>
+        <Apellidos></Apellidos>
+        <DiplomaJuez></DiplomaJuez>
     </Jueces>
 
     <Criterio_Valoracion>
-    <Indumentaria></Indumentaria>
-    <AseoPersonal></AseoPersonal>
-    <EjecucionTecnica></EjecucionTecnica>
-    <Valores></Valores>
-    <Respuestas></Respuestas>
+        <Indumentaria></Indumentaria>
+        <AseoPersonal></AseoPersonal>
+        <EjecucionTecnica></EjecucionTecnica>
+        <Valores></Valores>
+        <Respuestas></Respuestas>
     </Criterio_Valoracion>
 
     <Tribunal>
-    <Numero_jueces></Numero_jueces>
-    <Calificacion_final></Calificacion_final>
+        <Numero_jueces></Numero_jueces>
+        <Calificacion_final></Calificacion_final>
     </Tribunal>
 
     <AbonarCuota>
-    <Id_aspirante></Id_aspirante>
+        <Id_aspirante></Id_aspirante>
     </AbonarCuota>
 
     <SuspendeExamen>
-    <Id_aspirante></Id_aspirante>
-    <SuspendeParcial></SuspendeParcial>
-    <SuspendeTotal></SuspendeTotal>
-    <SuspendeSegundaFase></SuspendeSegundaFase>
+        <Id_aspirante></Id_aspirante>
+        <SuspendeParcial></SuspendeParcial>
+        <SuspendeTotal></SuspendeTotal>
+        <SuspendeSegundaFase></SuspendeSegundaFase>
     </SuspendeExamen>
+
+    <Hasta3erDan>
+        <Tecnicas></Tecnicas>
+        <Kata></Kata>
+        <Kumite></Kumite>
+        <Campeonatos></Campeonatos>
+    </Hasta3erDan>
+
+    <CinturonNegro>
+        <Tecnica_Directa></Tecnica_Directa>
+        <Tecnica_Circulares></Tecnica_Circulares>
+        <Teoria></Teoria>
+        <Kata></Kata>
+        <Kumite></Kumite>
+    </CinturonNegro>
+
+    <CinturonNegroPrimerDan>
+        <Tecnica_Directa></Tecnica_Directa>
+        <Tecnica_Pierna></Tecnica_Pierna>
+        <Tecnica_DirectaIndirecta></Tecnica_DirectaIndirecta>
+        <Tecnica_Combinada></Tecnica_Combinada>
+        <Teoria></Teoria>
+        <Kata></Kata>
+        <Kumite></Kumite>
+        <Aplicacion_Tecnica></Aplicacion_Tecnica>
+    </CinturonNegroPrimerDan>
+
+    <CinturonNegroSegundoDan>
+        <Variaciones_Tecnica></Variaciones_Tecnica>
+        <Teoria></Teoria>
+        <Kata></Kata>
+        <Kumite></Kumite>
+        <Campeonatos></Campeonatos>
+        <Tecnicas></Tecnicas>
+        <Aplicación_Tecnica></Aplicación_Tecnica>
+        <Demo_libre></Demo_libre>
+    </CinturonNegroSegundoDan>
 

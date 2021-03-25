@@ -1,14 +1,20 @@
-<?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace="https://www.w3schools.com"
-xmlns="https://www.w3schools.com"
-elementFormDefault="qualified">
+    <?xml version="1.0"?>
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"/>
+
+    <xs:element name="examenddl" type="resultado"/>
+     <xs:complexType name="typeexam">
+        <xs:sequence>
+                <xs:element name="examen" type="tipoexamen" maxOccurs="unbounded"/>
+                <xs:element name="resultados" type="tiporesultado" maxOccurs="unbounded"/>
+                <xs:element name="id_aspirante" type="xs:integer" maxOccurs="unbounded"/>
+        </xs:sequence>
+     </xs:complexType>
 
 
 
 
 
-<xs:element name="CriterioValoracion">
+    <xs:element name="CriterioValoracion">
     <xs:complexType>
         <xs:sequence>
             <xs:element name="Id_aspirante" type="xs:integer"/>
@@ -16,12 +22,7 @@ elementFormDefault="qualified">
     </xs:complexType>
     </xs:element>
 
-
-
-
-
-
-<xs:element name="aspirante">
+    <xs:element name="aspirante">
     <xs:complexType>
         <xs:sequence>
             <xs:element name="Id_aspirante" type="xs:integer"/>
@@ -40,11 +41,7 @@ elementFormDefault="qualified">
             <xs:element name="FotoCarnetGrados" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
-</xs:element>
-
-
-
-
+    </xs:element>
 
     <xs:element name="Meritos">
     <xs:complexType>
@@ -57,7 +54,6 @@ elementFormDefault="qualified">
     </xs:complexType>
     </xs:element>
 
-
     <xs:element name="Convalidacion_Grados">
     <xs:complexType>
         <xs:sequence>
@@ -65,9 +61,6 @@ elementFormDefault="qualified">
         </xs:sequence>
     </xs:complexType>
     </xs:element>
-
-
-
 
     <xs:element name="Requisitos_Aspirantes">
     <xs:complexType>
@@ -78,9 +71,6 @@ elementFormDefault="qualified">
     </xs:complexType>
     </xs:element>
 
-
-
-
     <xs:element name="DispensaMedica">
     <xs:complexType>
         <xs:sequence>
@@ -88,10 +78,6 @@ elementFormDefault="qualified">
         </xs:sequence>
     </xs:complexType>
     </xs:element>
-
-
-
-
 
     <xs:element name="Jueces">
     <xs:complexType>
@@ -104,37 +90,26 @@ elementFormDefault="qualified">
     </xs:complexType>
     </xs:element>
 
+    <xs:element name="Criterio_Valoracion">
+    <xs:complexType>
+        <xs:sequence>
+        <xs:element name="Indumentaria" type="xs:integer"/>
+        <xs:element name="AseoPersonal" type="xs:integer"/>
+        <xs:element name="EjecucionTecnica" type="xs:integer"/>
+        <xs:element name="Valores" type="xs:integer"/>
+        <xs:element name="Respuestas" type="xs:integer"/>
+    </xs:sequence>
+    </xs:complexType>
+    </xs:element>
 
-
-
-
-        <xs:element name="Criterio_Valoracion">
+    <xs:element name="Tribunal">
         <xs:complexType>
             <xs:sequence>
-            <xs:element name="Indumentaria" type="xs:integer"/>
-            <xs:element name="AseoPersonal" type="xs:integer"/>
-            <xs:element name="EjecucionTecnica" type="xs:integer"/>
-            <xs:element name="Valores" type="xs:integer"/>
-            <xs:element name="Respuestas" type="xs:integer"/>
-        </xs:sequence>
+            <xs:element name="Numero_jueces" type="xs:integer"/>
+            <xs:element name="Calificacion_final" type="xs:integer"/>
+            </xs:sequence>
         </xs:complexType>
-        </xs:element>
-
-
-
-
-        <xs:element name="Tribunal">
-            <xs:complexType>
-                <xs:sequence>
-                <xs:element name="Numero_jueces" type="xs:integer"/>
-                <xs:element name="Calificacion_final" type="xs:integer"/>
-                </xs:sequence>
-            </xs:complexType>
-        </xs:element>
-
-
-
-
+    </xs:element>
 
     <xs:element name="AbonarCuota">
            <xs:complexType>
@@ -143,9 +118,6 @@ elementFormDefault="qualified">
                </xs:sequence>
            </xs:complexType>
     </xs:element>
-
-
-
 
     <xs:element name="SuspendeExamen">
         <xs:complexType>
@@ -158,15 +130,6 @@ elementFormDefault="qualified">
         </xs:complexType>
  </xs:element>
 
-
-
-
-
-
-
-
-
-
  <xs:element name="Hasta3erDan">
     <xs:complexType>
         <xs:sequence>
@@ -177,8 +140,6 @@ elementFormDefault="qualified">
         </xs:sequence>
     </xs:complexType>
 </xs:element>
-
-
 
 <xs:element name="CinturonNegro">
     <xs:complexType>
@@ -192,10 +153,6 @@ elementFormDefault="qualified">
         </xs:sequence>
     </xs:complexType>
 </xs:element>
-
-
-
-
 
 <xs:element name="CinturonNegroPrimerDan">
     <xs:complexType>
@@ -211,8 +168,6 @@ elementFormDefault="qualified">
         </xs:sequence>
     </xs:complexType>
 </xs:element>
-
-
 
 <xs:element name="CinturonNegroSegundoDan">
     <xs:complexType>
@@ -233,13 +188,6 @@ elementFormDefault="qualified">
     </xs:complexType>
 </xs:element>
 
-
-
-
-
-
-
-
 <xs:element name="CinturonNegroTercerDan">
     <xs:complexType>
         <xs:sequence>
@@ -256,9 +204,6 @@ elementFormDefault="qualified">
     </xs:complexType>
 </xs:element>
 
-
-
-
 <xs:element name="CinturonNegroCuartoDan">
     <xs:complexType>
         <xs:sequence>
@@ -271,15 +216,6 @@ elementFormDefault="qualified">
     </xs:complexType>
 </xs:element>
 
-
-
-
-
-
-
-
-
-
 <xs:element name="QuintoDanySuperior">
     <xs:complexType>
         <xs:sequence>
@@ -288,7 +224,5 @@ elementFormDefault="qualified">
         </xs:sequence>
     </xs:complexType>
 </xs:element>
-
-
 
 </xs:schema>
