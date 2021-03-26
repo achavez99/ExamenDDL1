@@ -1,450 +1,643 @@
-Examenddl {
-    display: block;
-    clear: both;
-}
-
-
-/* EXAMEN */
-
-Id_aspirante {
-    background-color: white;
-    border: black 1px solid;
-    display: table-cell;
-    padding: 10px;
-}
-
-examen::before {
-    content: "Examen";
-    display: table-caption;
-    background-color: #DDDDDD;
-    margin-right: 24%;
-    margin-left: 24%;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-examen {
-    display: table;
-    border-spacing: 10px;
-    border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-
-/* RESULTADO */
-
-Id_aspirante {
-    background-color: white;
-    border: black 1px solid;
-    display: table-cell;
-    padding: 10px;
-}
-
-resultados::before {
-    content: "Resultado";
-    display: table-caption;
-    background-color: #DDDDDD;
-    margin-right: 24%;
-    margin-left: 24%;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-resultados {
-    display: table;
-    border-spacing: 10px;
-    border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-
-/* ASPIRANTES */
-
-aspirante {
-    display: table;
-    border-spacing: 10px;
-    border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-aspirante::before {
-    content: "Aspirante";
-    display: table-caption;
-    background-color: #DDDDDD;
-    margin-right: 24%;
-    margin-left: 24%;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-.aspirante,
-Id_aspirante,
-Nombres,
-Apellidos,
-DNI,
-Telefono,
-Direccion,
-Fecha_nacimiento,
-Dan,
-Cinturon,
-Fecha_Ingreso_Dan,
-FotoAspirante,
-Tiempo_Dan_Anterior,
-FotoDNI,
-FotoCarnetGrados {
-    background-color: white;
-    border: black 1px solid;
-    display: table-row;
-    padding: 10px;
-    text-align: left;
-}
-
-
-/* MERITOS */
-
-meritos {
-    display: table;
-    border-spacing: 10px;
-    border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-meritos::before {
-    content: "Meritos";
-    display: table-caption;
-    background-color: #DDDDDD;
-    margin-right: 24%;
-    margin-left: 24%;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-Id_aspirante,
-Edad_aspirante,
-LicenciaActualizada,
-TrabajoEscrito {
-    background-color: white;
-    border: black 1px solid;
-    display: table-row;
-    padding: 10px;
-    text-align: left;
-}
-
-
-/* Convalidacion_Grados */
-
-Convalidacion_Grados {
-    display: table;
-    border-spacing: 10px;
-    border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-Convalidacion_Grados::before {
-    content: "Convalidacion grados";
-    display: table-caption;
-    background-color: #DDDDDD;
-    margin-right: 24%;
-    margin-left: 24%;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-Id_aspirante {
-    background-color: white;
-    border: black 1px solid;
-    display: table-row;
-    padding: 10px;
-    text-align: left;
-}
-
-
-/* Requisitos_Aspirantes */
-
-Requisitos_Aspirantes {
-    display: table;
-    border-spacing: 10px;
-    border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-Requisitos_Aspirantes::before {
-    content: "Requisitos Aspirantes";
-    display: table-caption;
-    background-color: #DDDDDD;
-    margin-right: 24%;
-    margin-left: 24%;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-SolicitudHasta3Dan,
-D4anySuperiorCurriculum {
-    background-color: white;
-    border: black 1px solid;
-    display: table-row;
-    padding: 10px;
-    text-align: left;
-}
-
-
-/* DispensaMedica */
-
-DispensaMedica {
-    display: table;
-    border-spacing: 10px;
-    border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-DispensaMedica::before {
-    content: "Dispensa Medica";
-    display: table-caption;
-    background-color: #DDDDDD;
-    margin-right: 24%;
-    margin-left: 24%;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-Id_aspirante {
-    background-color: white;
-    border: black 1px solid;
-    display: table-row;
-    padding: 10px;
-    text-align: left;
-}
-
-
-/* Jueces */
-
-Jueces {
-    display: table;
-    border-spacing: 10px;
-    border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-Jueces::before {
-    content: "Jueces";
-    display: table-caption;
-    background-color: #DDDDDD;
-    margin-right: 24%;
-    margin-left: 24%;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-Id_aspirante,
-Nombres,
-Apellidos,
-DiplomaJuez {
-    background-color: white;
-    border: black 1px solid;
-    display: table-row;
-    padding: 10px;
-    text-align: left;
-}
-
-
-/* Criterio_Valoracion */
-
-Criterio_Valoracion {
-    display: table;
-    border-spacing: 10px;
-    border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-Criterio_Valoracion::before {
-    content: "Criterio Valoracion";
-    display: table-caption;
-    background-color: #DDDDDD;
-    margin-right: 24%;
-    margin-left: 24%;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-Indumentaria,
-AseoPersonal,
-EjecucionTecnica,
-Valores,
-Respuestas {
-    background-color: white;
-    border: black 1px solid;
-    display: table-row;
-    padding: 10px;
-    text-align: left;
-}
-
-
-/* Tribunal */
-
-Tribunal {
-    display: table;
-    border-spacing: 10px;
-    border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-Tribunal::before {
-    content: "Tribunal";
-    display: table-caption;
-    background-color: #DDDDDD;
-    margin-right: 24%;
-    margin-left: 24%;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-Numero_jueces,
-Calificacion_final {
-    background-color: white;
-    border: black 1px solid;
-    display: table-row;
-    padding: 10px;
-    text-align: left;
-}
-
-
-/* AbonarCuota */
-
-AbonarCuota {
-    display: table;
-    border-spacing: 10px;
-    border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-AbonarCuota::before {
-    content: "Abonar Cuota";
-    display: table-caption;
-    background-color: #DDDDDD;
-    margin-right: 24%;
-    margin-left: 24%;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-Id_aspirante {
-    background-color: white;
-    border: black 1px solid;
-    display: table-row;
-    padding: 10px;
-    text-align: left;
-}
-
-
-/* SuspendeExamen */
-
-SuspendeExamen {
-    display: table;
-    border-spacing: 10px;
-    border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-SuspendeExamen::before {
-    content: "Suspende Examen";
-    display: table-caption;
-    background-color: #DDDDDD;
-    margin-right: 24%;
-    margin-left: 24%;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-Id_aspirante,
-SuspendeParcial,
-SuspendeTotal,
-SuspendeSegundaFase {
-    background-color: white;
-    border: black 1px solid;
-    display: table-row;
-    padding: 10px;
-    text-align: left;
-}
-
-
-/* Hasta3erDan */
-
-Hasta3erDan {
-    display: table;
-    border-spacing: 10px;
-    border: black 1px solid;
-    font-size: 120%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 50%;
-}
-
-Hasta3erDan::before {
-    content: "Hasta 3er Dan";
-    display: table-caption;
-    background-color: #DDDDDD;
-    margin-right: 24%;
-    margin-left: 24%;
-    text-align: center;
-    margin-bottom: 5px;
-}
-
-Tecnicas,
-Kata,
-Kumite,
-Campeonatos {
-    background-color: white;
-    border: black 1px solid;
-    display: table-row;
-    padding: 10px;
-    text-align: left;
-}
+    Examenddl {
+        display: block;
+        clear: both;
+        width: 100%;
+        height: 100vh;
+        color: black;
+        background: linear-gradient(-45deg, #23D5AB, #23D5AB, #23c9d5, #23D5AB);
+        background-size: 400% 400%;
+        position: relative;
+    }
+    /* EXAMEN */
+    
+    Id_aspirante {
+        border: black 1px solid;
+        display: table-cell;
+        padding: 10px;
+        background-color: transparent;
+    }
+    
+    examen::before {
+        border: white 2px solid;
+        content: "Examen";
+        display: table-caption;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    examen {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    /* RESULTADO */
+    
+    Id_aspirante {
+        border: black 1px solid;
+        display: table-cell;
+        padding: 10px;
+        background-color: transparent;
+    }
+    
+    resultados::before {
+        content: "Resultado";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    resultados {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    /* ASPIRANTES */
+    
+    aspirante {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    aspirante::before {
+        content: "Aspirante";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Id_aspirante,
+    Nombres,
+    Apellidos,
+    DNI,
+    Telefono,
+    Direccion,
+    Fecha_nacimiento,
+    Dan,
+    Cinturon,
+    Fecha_Ingreso_Dan,
+    FotoAspirante,
+    Tiempo_Dan_Anterior,
+    FotoDNI,
+    FotoCarnetGrados {
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+        background-color: transparent;
+    }
+    /* MERITOS */
+    
+    meritos {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    meritos::before {
+        content: "Meritos";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Id_aspirante,
+    Edad_aspirante,
+    LicenciaActualizada,
+    TrabajoEscrito {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* Convalidacion_Grados */
+    
+    Convalidacion_Grados {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    Convalidacion_Grados::before {
+        content: "Convalidacion grados";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Id_aspirante {
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* Requisitos_Aspirantes */
+    
+    Requisitos_Aspirantes {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    Requisitos_Aspirantes::before {
+        content: "Requisitos Aspirantes";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    SolicitudHasta3Dan,
+    D4anySuperiorCurriculum {
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* DispensaMedica */
+    
+    DispensaMedica {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    DispensaMedica::before {
+        content: "Dispensa Medica";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Id_aspirante {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* Jueces */
+    
+    Jueces {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    Jueces::before {
+        content: "Jueces";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Id_aspirante,
+    Nombres,
+    Apellidos,
+    DiplomaJuez {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* Criterio_Valoracion */
+    
+    Criterio_Valoracion {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    Criterio_Valoracion::before {
+        content: "Criterio Valoracion";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Indumentaria,
+    AseoPersonal,
+    EjecucionTecnica,
+    Valores,
+    Respuestas {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* Tribunal */
+    
+    Tribunal {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    Tribunal::before {
+        content: "Tribunal";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Numero_jueces,
+    Calificacion_final {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* AbonarCuota */
+    
+    AbonarCuota {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    AbonarCuota::before {
+        content: "Abonar Cuota";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Id_aspirante {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* SuspendeExamen */
+    
+    SuspendeExamen {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    SuspendeExamen::before {
+        content: "Suspende Examen";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Id_aspirante,
+    SuspendeParcial,
+    SuspendeTotal,
+    SuspendeSegundaFase {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* Hasta3erDan */
+    
+    Hasta3erDan {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    Hasta3erDan::before {
+        content: "Hasta 3er Dan";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Tecnicas,
+    Kata,
+    Kumite,
+    Campeonatos {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* CinturonNegro */
+    
+    CinturonNegro {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    CinturonNegro::before {
+        content: "Cinturon Negro";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Tecnica_Directa,
+    Tecnica_Circulares,
+    Tecnica_Pierna,
+    Teoria,
+    Kata,
+    Kumite {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* CinturonNegroPrimerDan */
+    
+    CinturonNegroPrimerDan {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    CinturonNegroPrimerDan::before {
+        content: "Cinturon Negro Primer Dan";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Tecnica_Directa,
+    Tecnica_Pierna,
+    Tecnica_DirectaIndirecta,
+    Tecnica_Combinada,
+    Teoria,
+    Kata,
+    Kumite,
+    Aplicación_Tecnica {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* CinturonNegroSegundoDan */
+    
+    CinturonNegroSegundoDan {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    CinturonNegroSegundoDan::before {
+        content: "Cinturon Negro Primer Dan";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Tecnica_Base,
+    Tecnica_Directa,
+    Tecnica_DirectaIndirecta,
+    Tecnica_Pierna,
+    Tecnica_Combinada,
+    Teoria,
+    Kata,
+    Kumite,
+    Campeonatos,
+    Tecnicas,
+    Aplicación_Tecnica,
+    Demo_libre {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* CinturonNegroTercerDan */
+    
+    CinturonNegroTercerDan {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    CinturonNegroTercerDan::before {
+        content: "Cinturon Negro Tercer Dan";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Variaciones_Tecnica,
+    Teoria,
+    Kata,
+    Kumite,
+    Campeonatos,
+    Tecnicas,
+    Aplicaciones,
+    Aplicacion_Tecnica,
+    Demo_libre {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* CinturonNegroCuartoDan */
+    
+    CinturonNegroCuartoDan {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    CinturonNegroCuartoDan::before {
+        content: "Cinturon Negro Cuarto Dan";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Kata,
+    Kumite,
+    Coloquio,
+    Aplicacion_Tecnica,
+    Demo_libre {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
+    /* QuintoDanySuperior */
+    
+    QuintoDanySuperior {
+        display: table;
+        border-spacing: 10px;
+        border: black 1px solid;
+        font-size: 120%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        width: 25%;
+    }
+    
+    QuintoDanySuperior::before {
+        content: "Quinto Dany Superior";
+        display: table-caption;
+        border: white 1px solid;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    Kata,
+    Coloquio {
+        background-color: white;
+        border: black 1px solid;
+        display: table-row;
+        padding: 10px;
+        text-align: left;
+    }
