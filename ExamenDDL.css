@@ -1,0 +1,44 @@
+Id_aspirante {
+    display: block;
+    background-color: beige;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+examen::before {
+    content: "Examen";
+}
+
+examen {
+    background-color: cornsilk;
+    font-family: sans-serif;
+}
+
+Id_aspirante,
+Nombres,
+Apellidos,
+DNI,
+Telefono,
+Direccion,
+Fecha_nacimiento,
+Dan,
+Cinturon,
+Fecha_Ingreso_Dan,
+FotoAspirante,
+Tiempo_Dan_Anterior,
+FotoDNI,
+FotoCarnetGrados {
+    display: block;
+    background-color: beige;
+    border: black 2px solid;
+    margin: 10px;
+}
+
+aspirante::before {
+    content: "Aspirante";
+}
+
+aspirante {
+    background-color: cornsilk;
+    font-family: sans-serif;
+}
