@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="Prac27css.css"?>
-<examenddl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ExamenDDL.xsd">
+    <Examenddl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ExamenDDL.xsd">
+
 
     <examen>
-        <Id_aspirante></Id_aspirante>
+        <Id_aspirante>3424</Id_aspirante>
     </examen>
 
     <resultados>
-        <Id_aspirante></Id_aspirante>
+        <Id_aspirante>3424</Id_aspirante>
     </resultados>
 
     <aspirante>
@@ -30,8 +30,8 @@
     <meritos>
         <Id_aspirante>393</Id_aspirante>
         <Edad_aspirante>19</Edad_aspirante>
-        <LicenciaActualizada></LicenciaActualizada>
-        <TrabajoEscrito></TrabajoEscrito>
+        <LicenciaActualizada>false</LicenciaActualizada>
+        <TrabajoEscrito>true</TrabajoEscrito>
     </meritos>
 
     <Convalidacion_Grados>
@@ -39,50 +39,50 @@
     </Convalidacion_Grados>
 
     <Requisitos_Aspirantes>
-        <SolicitudHasta3Dan></SolicitudHasta3Dan>
-        <D4anySuperiorCurriculum></D4anySuperiorCurriculum>
+        <SolicitudHasta3Dan>true</SolicitudHasta3Dan>
+        <D4anySuperiorCurriculum>false</D4anySuperiorCurriculum>
     </Requisitos_Aspirantes>
 
     <DispensaMedica>
-        <Id_aspirante></Id_aspirante>
+        <Id_aspirante>123</Id_aspirante>
     </DispensaMedica>
 
     <Jueces>
-        <Id_aspirante></Id_aspirante>
-        <Nombres></Nombres>
-        <Apellidos></Apellidos>
-        <DiplomaJuez></DiplomaJuez>
+        <Id_aspirante>44</Id_aspirante>
+        <Nombres>Juan jose</Nombres>
+        <Apellidos>Torres</Apellidos>
+        <DiplomaJuez>true</DiplomaJuez>
     </Jueces>
 
     <Criterio_Valoracion>
-        <Indumentaria></Indumentaria>
-        <AseoPersonal></AseoPersonal>
-        <EjecucionTecnica></EjecucionTecnica>
-        <Valores></Valores>
-        <Respuestas></Respuestas>
+        <Indumentaria>12</Indumentaria>
+        <AseoPersonal>5</AseoPersonal>
+        <EjecucionTecnica>7</EjecucionTecnica>
+        <Valores>3</Valores>
+        <Respuestas>7</Respuestas>
     </Criterio_Valoracion>
 
     <Tribunal>
-        <Numero_jueces></Numero_jueces>
-        <Calificacion_final></Calificacion_final>
+        <Numero_jueces>3</Numero_jueces>
+        <Calificacion_final>9</Calificacion_final>
     </Tribunal>
 
     <AbonarCuota>
-        <Id_aspirante></Id_aspirante>
+        <Id_aspirante>22</Id_aspirante>
     </AbonarCuota>
 
     <SuspendeExamen>
-        <Id_aspirante></Id_aspirante>
-        <SuspendeParcial></SuspendeParcial>
-        <SuspendeTotal></SuspendeTotal>
-        <SuspendeSegundaFase></SuspendeSegundaFase>
+        <Id_aspirante>3</Id_aspirante>
+        <SuspendeParcial>true</SuspendeParcial>
+        <SuspendeTotal>true</SuspendeTotal>
+        <SuspendeSegundaFase>true</SuspendeSegundaFase>
     </SuspendeExamen>
 
     <Hasta3erDan>
-        <Tecnicas></Tecnicas>
-        <Kata></Kata>
-        <Kumite></Kumite>
-        <Campeonatos></Campeonatos>
+        <Tecnicas>La grulla</Tecnicas>
+        <Kata>esta</Kata>
+        <Kumite>patada</Kumite>
+        <Campeonatos>3</Campeonatos>
     </Hasta3erDan>
 
     <CinturonNegro>
@@ -140,4 +140,4 @@
         <Coloquio></Coloquio>
     </QuintoDanySuperior>
 
-</examenddl>
+    </Examenddl>

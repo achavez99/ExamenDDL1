@@ -1,9 +1,10 @@
-    <?xml version="1.0"?>
-    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"/>
+<?xml version="1.0" encoding="UTF-8"?>
 
-    <xsd:element name="examenddl" type="resultado"/>
-     <xsd:complexType name="resultado">
-        <xsd:sequence>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="Examenddl" type="resultado"/>
+        <xsd:complexType name="resultado">
+            <xsd:sequence>
                 <xsd:element name="examen" type="tipoexamen" maxOccurs="unbounded"/>
                 <xsd:element name="resultados" type="tiporesultado" maxOccurs="unbounded"/>
                 <xsd:element name="aspirante" type="tipoaspirante" maxOccurs="unbounded"/>
@@ -23,9 +24,8 @@
                 <xsd:element name="CinturonNegroTercerDan" type="tipocint_negro3dan" maxOccurs="unbounded"/>
                 <xsd:element name="CinturonNegroCuartoDan" type="tipocint_negro4dan" maxOccurs="unbounded"/>
                 <xsd:element name="QuintoDanySuperior" type="tipocint_5dan" maxOccurs="unbounded"/>
-
-        </xsd:sequence>
-     </xsd:complexType>
+            </xsd:sequence>
+        </xsd:complexType>
 
     <xsd:complexType name="tipoexamen">
         <xsd:sequence>
