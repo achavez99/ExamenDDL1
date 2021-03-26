@@ -1,19 +1,95 @@
-Id_aspirante {
+Examenddl {
     display: block;
-    background-color: beige;
-    border: black 2px solid;
-    margin: 10px;
+    clear: both;
+}
+
+
+/* EXAMEN */
+
+Id_aspirante {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
 }
 
 examen::before {
     content: "Examen";
+    display: table-caption;
+    background-color: #DDDDDD;
+    margin-right: 24%;
+    margin-left: 24%;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 examen {
-    background-color: cornsilk;
-    font-family: sans-serif;
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
 }
 
+
+/* RESULTADO */
+
+Id_aspirante {
+    background-color: white;
+    border: black 1px solid;
+    display: table-cell;
+    padding: 10px;
+}
+
+resultados::before {
+    content: "Resultado";
+    display: table-caption;
+    background-color: #DDDDDD;
+    margin-right: 24%;
+    margin-left: 24%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+resultados {
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+
+/* ASPIRANTES */
+
+aspirante {
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+aspirante::before {
+    content: "Aspirante";
+    display: table-caption;
+    background-color: #DDDDDD;
+    margin-right: 24%;
+    margin-left: 24%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.aspirante,
 Id_aspirante,
 Nombres,
 Apellidos,
@@ -28,17 +104,347 @@ FotoAspirante,
 Tiempo_Dan_Anterior,
 FotoDNI,
 FotoCarnetGrados {
-    display: block;
-    background-color: beige;
-    border: black 2px solid;
-    margin: 10px;
+    background-color: white;
+    border: black 1px solid;
+    display: table-row;
+    padding: 10px;
+    text-align: left;
 }
 
-aspirante::before {
-    content: "Aspirante";
+
+/* MERITOS */
+
+meritos {
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
 }
 
-aspirante {
-    background-color: cornsilk;
-    font-family: sans-serif;
+meritos::before {
+    content: "Meritos";
+    display: table-caption;
+    background-color: #DDDDDD;
+    margin-right: 24%;
+    margin-left: 24%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+Id_aspirante,
+Edad_aspirante,
+LicenciaActualizada,
+TrabajoEscrito {
+    background-color: white;
+    border: black 1px solid;
+    display: table-row;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Convalidacion_Grados */
+
+Convalidacion_Grados {
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+Convalidacion_Grados::before {
+    content: "Convalidacion grados";
+    display: table-caption;
+    background-color: #DDDDDD;
+    margin-right: 24%;
+    margin-left: 24%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+Id_aspirante {
+    background-color: white;
+    border: black 1px solid;
+    display: table-row;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Requisitos_Aspirantes */
+
+Requisitos_Aspirantes {
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+Requisitos_Aspirantes::before {
+    content: "Requisitos Aspirantes";
+    display: table-caption;
+    background-color: #DDDDDD;
+    margin-right: 24%;
+    margin-left: 24%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+SolicitudHasta3Dan,
+D4anySuperiorCurriculum {
+    background-color: white;
+    border: black 1px solid;
+    display: table-row;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* DispensaMedica */
+
+DispensaMedica {
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+DispensaMedica::before {
+    content: "Dispensa Medica";
+    display: table-caption;
+    background-color: #DDDDDD;
+    margin-right: 24%;
+    margin-left: 24%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+Id_aspirante {
+    background-color: white;
+    border: black 1px solid;
+    display: table-row;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Jueces */
+
+Jueces {
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+Jueces::before {
+    content: "Jueces";
+    display: table-caption;
+    background-color: #DDDDDD;
+    margin-right: 24%;
+    margin-left: 24%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+Id_aspirante,
+Nombres,
+Apellidos,
+DiplomaJuez {
+    background-color: white;
+    border: black 1px solid;
+    display: table-row;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Criterio_Valoracion */
+
+Criterio_Valoracion {
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+Criterio_Valoracion::before {
+    content: "Criterio Valoracion";
+    display: table-caption;
+    background-color: #DDDDDD;
+    margin-right: 24%;
+    margin-left: 24%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+Indumentaria,
+AseoPersonal,
+EjecucionTecnica,
+Valores,
+Respuestas {
+    background-color: white;
+    border: black 1px solid;
+    display: table-row;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Tribunal */
+
+Tribunal {
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+Tribunal::before {
+    content: "Tribunal";
+    display: table-caption;
+    background-color: #DDDDDD;
+    margin-right: 24%;
+    margin-left: 24%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+Numero_jueces,
+Calificacion_final {
+    background-color: white;
+    border: black 1px solid;
+    display: table-row;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* AbonarCuota */
+
+AbonarCuota {
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+AbonarCuota::before {
+    content: "Abonar Cuota";
+    display: table-caption;
+    background-color: #DDDDDD;
+    margin-right: 24%;
+    margin-left: 24%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+Id_aspirante {
+    background-color: white;
+    border: black 1px solid;
+    display: table-row;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* SuspendeExamen */
+
+SuspendeExamen {
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+SuspendeExamen::before {
+    content: "Suspende Examen";
+    display: table-caption;
+    background-color: #DDDDDD;
+    margin-right: 24%;
+    margin-left: 24%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+Id_aspirante,
+SuspendeParcial,
+SuspendeTotal,
+SuspendeSegundaFase {
+    background-color: white;
+    border: black 1px solid;
+    display: table-row;
+    padding: 10px;
+    text-align: left;
+}
+
+
+/* Hasta3erDan */
+
+Hasta3erDan {
+    display: table;
+    border-spacing: 10px;
+    border: black 1px solid;
+    font-size: 120%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+Hasta3erDan::before {
+    content: "Hasta 3er Dan";
+    display: table-caption;
+    background-color: #DDDDDD;
+    margin-right: 24%;
+    margin-left: 24%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+Tecnicas,
+Kata,
+Kumite,
+Campeonatos {
+    background-color: white;
+    border: black 1px solid;
+    display: table-row;
+    padding: 10px;
+    text-align: left;
 }
