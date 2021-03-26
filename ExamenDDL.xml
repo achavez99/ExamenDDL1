@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+    <?xml-stylesheet href="ExamenDDL.css"?>
     <Examenddl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ExamenDDL.xsd">
 
 
@@ -86,58 +87,63 @@
     </Hasta3erDan>
 
     <CinturonNegro>
-        <Tecnica_Directa></Tecnica_Directa>
-        <Tecnica_Circulares></Tecnica_Circulares>
-        <Teoria></Teoria>
-        <Kata></Kata>
-        <Kumite></Kumite>
+        <Tecnica_Directa>la anca</Tecnica_Directa>
+        <Tecnica_Circulares>el lorzas</Tecnica_Circulares>
+        <Tecnica_Pierna>la coz</Tecnica_Pierna>
+        <Teoria>Nadar</Teoria>
+        <Kata>1</Kata>
+        <Kumite>2</Kumite>
     </CinturonNegro>
 
     <CinturonNegroPrimerDan>
-        <Tecnica_Directa></Tecnica_Directa>
-        <Tecnica_Pierna></Tecnica_Pierna>
-        <Tecnica_DirectaIndirecta></Tecnica_DirectaIndirecta>
-        <Tecnica_Combinada></Tecnica_Combinada>
-        <Teoria></Teoria>
-        <Kata></Kata>
-        <Kumite></Kumite>
-        <Aplicacion_Tecnica></Aplicacion_Tecnica>
+        <Tecnica_Directa>el vuelo</Tecnica_Directa>
+        <Tecnica_Pierna>la petada</Tecnica_Pierna>
+        <Tecnica_DirectaIndirecta>la mirada</Tecnica_DirectaIndirecta>
+        <Tecnica_Combinada>las focas</Tecnica_Combinada>
+        <Teoria>combinacion ballena</Teoria>
+        <Kata>panza</Kata>
+        <Kumite>grasa</Kumite>
+        <Aplicación_Tecnica>bollos</Aplicación_Tecnica>
     </CinturonNegroPrimerDan>
 
     <CinturonNegroSegundoDan>
-        <Variaciones_Tecnica></Variaciones_Tecnica>
-        <Teoria></Teoria>
-        <Kata></Kata>
-        <Kumite></Kumite>
-        <Campeonatos></Campeonatos>
-        <Tecnicas></Tecnicas>
-        <Aplicación_Tecnica></Aplicación_Tecnica>
-        <Demo_libre></Demo_libre>
+        <Tecnica_Base>el topo</Tecnica_Base>
+        <Tecnica_Directa>excavacion</Tecnica_Directa>
+        <Tecnica_DirectaIndirecta>el tunel</Tecnica_DirectaIndirecta>
+        <Tecnica_Pierna>patada cepa</Tecnica_Pierna>
+        <Tecnica_Combinada>las ratas</Tecnica_Combinada>
+        <Teoria>el tunel</Teoria>
+        <Kata>la zarpa</Kata>
+        <Kumite>la pata</Kumite>
+        <Campeonatos>5</Campeonatos>
+        <Tecnicas>4</Tecnicas>
+        <Aplicación_Tecnica>el escapada</Aplicación_Tecnica>
+        <Demo_libre>la caza</Demo_libre>
     </CinturonNegroSegundoDan>
 
     <CinturonNegroTercerDan>
-        <Variaciones_Tecnica></Variaciones_Tecnica>
-        <Teoria></Teoria>
-        <Kata></Kata>
-        <Kumite></Kumite>
-        <Campeonatos></Campeonatos>
-        <Tecnicas></Tecnicas>
-        <Aplicaciones></Aplicaciones>
-        <Aplicacion_Tecnica></Aplicacion_Tecnica>
+        <Variaciones_Tecnica>Patada</Variaciones_Tecnica>
+        <Teoria>Tochazo</Teoria>
+        <Kata>por atras</Kata>
+        <Kumite>de palo en palo</Kumite>
+        <Campeonatos>4</Campeonatos>
+        <Tecnicas>el nalgazo</Tecnicas>
+        <Aplicaciones>cabeza</Aplicaciones>
+        <Aplicacion_Tecnica>cabezo</Aplicacion_Tecnica>
         <Demo_libre></Demo_libre>
     </CinturonNegroTercerDan>
 
     <CinturonNegroCuartoDan>
-        <kata></kata>
-        <Kumite></Kumite>
-        <Coloquio></Coloquio>
-        <Aplicacion_Tecnica></Aplicacion_Tecnica>
-        <Demo_libre></Demo_libre>
+        <Kata>la busqueda</Kata>
+        <Kumite>de la foca</Kumite>
+        <Coloquio>perdida</Coloquio>
+        <Aplicacion_Tecnica>del tunel</Aplicacion_Tecnica>
+        <Demo_libre>de la grasa</Demo_libre>
     </CinturonNegroCuartoDan>
 
     <QuintoDanySuperior>
-        <kata></kata>
-        <Coloquio></Coloquio>
+        <Kata>la peste</Kata>
+        <Coloquio>del sapo volador</Coloquio>
     </QuintoDanySuperior>
 
     </Examenddl>
